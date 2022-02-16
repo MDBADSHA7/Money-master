@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.final-amount{
+    text-align: center;
+}
+.final-balance{
+    text-align: center;
+}
+.save{
+    background-color: lightskyblue;
+    padding-left: 10px;
+    padding-right: 10px;
+padding-top: 3px;
+padding-bottom: 3px;
+color: white;
+}
+.calculate{
+    color: white;
+    margin-left: 85px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main-part{
+    display: flex;
+    margin: auto;
+    border: 10px dotted;
+}
+.woner{
+    color: red;
+}
+.pad{
+    border: 10px;
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: azure;
+}
+.border{
+    border: 10px;
+    margin-left: 360px;
+    background-color:azure;
+}
