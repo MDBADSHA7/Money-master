@@ -10,7 +10,7 @@ h2{
 .final-balance{
     text-align: center;
 }
-.save{
+#save{
     background-color: lightskyblue;
     padding-left: 10px;
     padding-right: 10px;
@@ -31,7 +31,7 @@ color: white;
 .main-part{
     display: flex;
     margin: auto;
-    border: 10px dotted;
+    border: 10px;
 }
 .woner{
     color: red;
