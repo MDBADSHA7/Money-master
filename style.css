@@ -4,10 +4,10 @@ h1 {
 h2{
     text-align: center;
 }
-.final-amount{
+.saving-amount{
     text-align: center;
 }
-.final-balance{
+.remaining-balance{
     text-align: center;
 }
 #save{
@@ -18,7 +18,7 @@ padding-top: 3px;
 padding-bottom: 3px;
 color: white;
 }
-.calculate{
+.calculate-button{
     color: white;
     margin-left: 85px;
     background-color: lightskyblue;
@@ -32,18 +32,24 @@ color: white;
     display: flex;
     margin: auto;
     border: 10px;
+    @media only screen and (max-width: 600px) {
+        .example {background: red;}
+      }
+      @media only screen and (min-width: 992px) {
+        .example {background: orange;}
+      }  
 }
 .woner{
     color: red;
 }
-.pad{
+.padding{
     border: 10px;
     margin-left: 30px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: azure;
 }
-.border{
+.picture-border{
     border: 10px;
     margin-left: 360px;
     background-color:azure;

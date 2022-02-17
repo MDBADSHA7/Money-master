@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money-count</title>
+    <!-- css style sheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,24 +16,25 @@
     </header>
     <section>
         <div class="main-part">
-            <div class="border"><img src="image/money-3.jfif.crdownload" alt=""></div>
-            <div class="pad">
+            <div class="picture-border"><img src="image/money-3.jfif.crdownload" alt=""></div>
+            <div class="padding">
                 <h2>Income</h2>
                 <p>Income: <input id="monthly-income" type="number" placeholder="Your-monthly-income"></p>
                 <h2>Expenses</h2>
                 <p>Food: <input id="food" type="number" placeholder="Food-coast"></p>
                 <p>Rent: <input id="rent" type="number" placeholder="Rent-coast"></p>
                 <p>Clothes: <input id="cloth" type="number" placeholder="Cloth-coast"></p>
-                <button id="first-click" class="calculate">Calculate</button>
+                <button id="first-click" class="calculate-button">Calculate</button>
                 <h2>Total Expenses:<span id="expanse-total">00</span></h2>
                 <h2>Balance:<span id="rest-balance">00</span></h2>
                 <p>Save: <input id="saving-money" type="text" placeholder="give number of parcentage"> % <button
                         id="save">Save</button></p>
-                <p class="final-amount">Saving Amount:<span id="saving-count">00</span></p>
-                <p class="final-balance">Remaining Balance:2500</p>
+                <p class="saving-amount">Saving Amount:<span id="saving-count">00</span></p>
+                <p class="remaining-balance">Remaining Balance:<span id="remaining-balance">00</span></p>
             </div>
         </div>
     </section>
+    <!-- javascript link -->
     <script src="js/money.js"></script>
 </body>
 
